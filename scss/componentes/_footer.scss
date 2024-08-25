@@ -1,0 +1,49 @@
+
+// pie de pagina
+.footer{
+  display: flex;
+  justify-content:left;
+  text-align:left;
+  align-items: end;
+  font-size: 15px;
+  margin: 5px;
+  letter-spacing: -1px;
+  background-color: rgb(255, 233, 236);
+  color:$third-color;
+  text-decoration: dashed;
+  line-height: 10px;
+
+  
+
+   }
+ 
+   .h4-footer{
+    display: flex;
+    margin-left: 20px;
+
+   }
+
+ 
+ .final{
+   text-align: center;
+   background-color: $secundary-color;
+   color: $third-color;
+   gap: 10px;
+
+    
+ }
+
+ .div-link-footer{
+
+  letter-spacing: -1px;
+  line-height: 20px;
+  a:link {color: $third-color;}
+  transition: 3s;
+
+
+ }
+ .footer-image {
+  display: flex;
+  width: 50px; 
+  height: auto;
+  margin-right: 25px; }
