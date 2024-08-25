@@ -27,46 +27,45 @@ a:link {
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  justify-content: left;
-  text-align: left;
-  align-items: end;
-  font-size: 15px;
-  margin: 5px;
-  letter-spacing: -1px;
-  background-color: rgb(255, 233, 236);
-  color: rgb(172, 9, 63);
-  text-decoration: dashed;
-  line-height: 10px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.h4-footer {
+footer {
+  background-color: palevioletred;
   display: flex;
-  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.final {
-  text-align: center;
-  background-color: rgb(244, 219, 228);
-  color: rgb(172, 9, 63);
+footer h3 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+footer .cont-red .cont-c {
+  display: flex;
+  align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
-.div-link-footer {
-  letter-spacing: -1px;
-  line-height: 20px;
-  transition: 3s;
-}
-.div-link-footer a:link {
-  color: rgb(172, 9, 63);
+footer .cont-red .cont-c p {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.footer-image {
+footer .cont-red .cont-c img {
+  width: 35px;
+}
+
+.footer-final {
+  color: white;
   display: flex;
-  width: 50px;
-  height: auto;
-  margin-right: 25px;
 }
 
 .menu-container {
